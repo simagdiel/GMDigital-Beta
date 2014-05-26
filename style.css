@@ -88,7 +88,7 @@ body::-webkit-scrollbar-track-piece {background: none;}
 	font-size: 16px;
 	margin: 15px 0 5px 10px;
 }
-.blocoduplo 	h2{color: #3F2;}
+.blocoduplo 	h2{color: #1E4;}
 .blocotriplo 	h2{color: #0AF;}
 .blocosextuplo 	h2{color: #FB0;}
 /*-----  End of CSS Default  ------*/
@@ -98,13 +98,13 @@ body::-webkit-scrollbar-track-piece {background: none;}
 ===================================================*/
 .headergeral{ background: #222; height: 95px;}
 .fixed{ position : fixed; z-index : 999;}
-.logo{ margin: 15px 0 0 0;}
-.social{ float: right; margin: -50px 5px 0 5px;}
+.logo{ margin: 15px 0 0 0; float: left;}
+.leftlogo{float: right; width: 440px; margin-top: 35px;}
+.social{  margin: 0 5px;}
 .social img{opacity: .2;}
 .social img:hover{opacity: 1;}
 .searchform {
 	float: right;
-	margin: -50px 0 10px;
 }
 .searchform label span {display: none;}
 .searchform input {
