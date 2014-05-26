@@ -1,0 +1,236 @@
+﻿@charset "utf-8";
+/*
+Theme Name: GM Digital-Beta
+Theme URI: http://gmdigital.info/
+Description: Cursos, Video-Aulas, Tutoriais Dicas e muito mais, tudo para melhorar seu inglês.
+Author: Equipe do GM Digital
+Version:1.0
+Author URI: http://gmdigital.info/
+*/
+html, body, div, span, applet, object, iframe, form, fieldset,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
+s, samp, var, small, strike, strong, sub, sup, tt, b, u, i,
+center, dl, dt, dd, ol, ul, li,  label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+:focus { outline: 0; }
+del { text-decoration: line-through; }
+table{ border-collapse:separate; border-spacing:0;}
+a:link{color:#0af;text-decoration:none;outline:0;}
+a:visited{color:#0af;text-decoration:none;outline:0;}
+a:hover{color:#333; text-decoration:none; outline:0;}
+a:active{color:#ccc;text-decoration:none;outline:0;}
+caption,th,td{font-weight:normal;text-align:left;}
+i,em{font-style:italic;}
+b,strong{font-weight:bold;}
+small{font-size:0.625em;}
+big{font-size:1.0em;}
+img {max-width: 100%; max-height:100%;}
+img.alignright{float:right; margin:0 0 1em 1em}
+img.alignleft{float:left; margin:0 1em 1em 0}
+img.aligncenter{display: block; margin-left: auto; margin-right: auto}
+a img.alignright{float:right; margin:0 0 1em 1em}
+a img.alignleft{float:left; margin:0 1em 1em 0}
+a img.aligncenter{display: block; margin-left: auto; margin-right: auto}
+a img{border:0;}
+input{border:0.063em solid #ddd;}
+p{line-height: 1.4em; padding-bottom:1.0em;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+*{margin:0; padding:0; outline:none; border:none; font: 100% Helvetica; color: #333;}
+body{ background: #eee;}
+
+h1,h2,h3,h4,h5,h6{font-weight:bold;}
+h1     { font-size: 175%; line-height: 1.750em; }
+h2     { font-size: 150%;}
+h3     { font-size: 131.3%;}
+h4     { font-size: 112.5%;}
+h5     { font-size: 93.8%;}
+h6     { font-size: 75.0%;}
+
+body::-webkit-scrollbar {width:10px; height:auto; background: #FFF; }
+body::-webkit-scrollbar-corner { background: #FFF;}
+body::-webkit-scrollbar-button:vertical {height:1px;display:block; border-left:1px solid rgba(61, 61, 61, 1);}
+body::-webkit-scrollbar-button:horizontal {width:1px;display:block;}
+body::-webkit-scrollbar-thumb:vertical { background:rgba(50, 50, 50, 0.8); border-radius: 10px; -webkit-border-radius: 10px;}
+body::-webkit-scrollbar-thumb:vertical:hover {background: #0af;}
+body::-webkit-scrollbar-thumb:horizontal { height:10px; background:#0af; border-radius: 10px; -webkit-border-radius: 10px;}
+body::-webkit-scrollbar-thumb:horizontal:hover {background: #0af;  }
+body::-webkit-scrollbar-thumb  {background:#0af;}
+body::-webkit-scrollbar-thumb:hover {background:#0af;}
+body::-webkit-scrollbar-track-piece {background: none;}
+
+/*==================================
+=            CSS Default            =
+==================================*/
+.clear {clear: both;}
+.center{width: 1020px; margin: 0 auto;}
+.floatleft{ float: left;}
+.floatright{float: right;}
+.border1{ border: 1px solid #ccc;}
+.margin-right20{margin-right: 20px;}
+.m0auto{margin: 0 auto;}
+.espaco-padrao{margin: 0 9px;}
+.blocoduplo h2, .blocotriplo h2, .blocosextuplo h2{
+	border-left: 2px dotted #333;
+	text-transform: uppercase;
+	padding: 3px 5px;
+	font-size: 16px;
+	margin: 15px 0 5px 10px;
+}
+.blocoduplo 	h2{color: #3F2;}
+.blocotriplo 	h2{color: #0AF;}
+.blocosextuplo 	h2{color: #FB0;}
+/*-----  End of CSS Default  ------*/
+
+/*===================================================
+=            CSS|HEADER-GERAL+MENU-GERAL            =
+===================================================*/
+.headergeral{ background: #222; height: 95px;}
+.fixed{ position : fixed; z-index : 999;}
+.logo{ margin: 15px 0 0 0;}
+.social{ float: right; margin: -50px 5px 0 5px;}
+.social img{opacity: .2;}
+.social img:hover{opacity: 1;}
+.searchform {
+	float: right;
+	margin: -50px 0 10px;
+}
+.searchform label span {display: none;}
+.searchform input {
+	height: 14px;
+	width:250px;
+	padding:8px 8px 8px 32px;
+	letter-spacing: 1px;
+	border:none;
+	font-size:14px;
+	color: #666;
+	background:#FFF url(imagens/lupa.png) no-repeat 10px center;
+}
+.searchsubmit{display:none; float: right;}
+.slide{
+	background: url(imagens/slide.jpg) no-repeat top center;
+	background-color: #000;
+	height: 250px;
+	width: 100%;
+	padding-top:50px;
+}
+.boxslide h1, .boxslide p,.menupages a:hover{color: #fff;}
+.boxslide{
+	background: rgba(0,170,255, .5);
+	padding: 20px;
+	height: 160px;
+	width: 450px;
+}
+.boxslide span{font-size: 14px;}
+.boxslide button{background: #333; padding:5px 10px; color: #fff; float: right;}
+.boxslide button:hover{background: #444; cursor: pointer;}
+
+.menugeral{ background: #292929; height: 40px;}
+.menugeral li{ float: left; margin-top: 9px; position: relative;}
+.menugeral a{ padding: 13px 8px; font-size: 12px;}
+.menugeral a:hover{ background: rgba(255,255,255,.07); }
+.menupages{ border-left: 1px dashen #ccc;  border-right: 1px dashen #ccc;}
+.menucats a{ color: #fff;}
+.menugeral ul li:hover ul{ display: block; }
+.menugeral ul ul li:after, .menugeral ul li li:after{ content : ""; }
+.menugeral ul li:hover ul, .menugeral li.sfHover ul{ left : -3px; top: 55px;}
+.menugeral ul li:hover li ul, .menugeral ul li.sfHover li ul{ top : -9999em;}
+.menugeral ul li li:hover ul, .menugeral ul li li.sfHover ul{ left : 10.938em; top : -0.12em;}
+.menugeral ul ul{position: absolute; top: -9999em; z-index: 9999; margin-top: -1.6em; margin-left: 0.188em;}
+.menugeral ul ul li {
+	outline: 0;
+	background-color: rgba(45, 45, 45, 1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.051);
+	font-size: 12px;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+}
+.menugeral ul ul li:hover{ background: rgba(40,40,40,1); }
+.menugeral ul ul li a:hover{ border-left:3px solid rgba(0, 85, 255, 1); }
+.menugeral ul ul li a {
+	border-left: 3px solid rgba(45, 45, 45, 1);
+	padding : 0 0.813em;
+	color : #fff;
+	font-size : 12px;
+	display : block;
+	width : 10.625em;
+	height : 2.2em;
+	line-height : 2em;
+	vertical-align : middle;
+	margin : 0;
+}
+.menugeral ul ul li a:focus, .menugeral ul ul li a:hover, .menugeral ul ul li a:active {
+outline: 0; text-decoration: none;}
+.menugeral ul ul li:hover ul{left: 148px; top: 18px;}
+.menugeral ul ul ul li:first-child, .menugeral ul ul ul li.first {
+border-top : 1px solid #f2f2f2 !important ;}
+.menugeral ul ul li:last-child, .menugeral ul ul li.last{ float: left;}
+/*-----  End of CSS|HEADER-GERAL+MENU-GERAL  ------*/
+
+/*=======================================
+=            CSS|CORPO-GERAL            =
+=======================================*/
+.corpogeral{
+	max-width: 1020px;
+	width: 100%;
+	margin: 0 auto;
+	background: #f8f8f8;
+	border: 1px solid #DDD;
+	border-bottom: 2px solid #DDD;
+}
+.recentes{ float: left; max-width: 320px;}
+.recentes h3,.postduplo h3, .box3 h3{ font-size: 15px;}
+.titleposthome{background: rgba(0, 170, 255, .7); padding: 5px 10px; position: relative; margin: -39px 0 0 0; }
+.titleposthome a{color: #fff;}
+.postduplo{ background: #FFF; width: 490px; float: left;}
+.postduplo img{ height: 100px;}
+.textduplo{ padding: 5px 10px 0; max-width: 281px; float: left;}
+.textduplo p{ font-size: 13px; }
+
+.box3{padding: 5px; min-height: 160px; margin-bottom: 20px; width: 140px; background: #fff; float: left;}
+
+.titleposttres{background: rgba(0, 170, 255, .7); padding: 5px 10px; position: relative; margin: -40px 0 0 0; }
+.titleposttres a{color: #fff; font-size: 12px;}
+
+.vejamais{background: #059; color: #FFF; height: 20px; width: 130px;
+position: absolute; text-align: center; padding: 6px 0; margin: 5px 5px; cursor: pointer;}
+
+.newsite h2{ border-left: 3px solid #059; font-size: 30px;}
+.newbox{background: #FFF; padding: 10px 15px; min-height: 100px; float: left; width: 460px;}
+.newbox h3{ font-size: 16px;}
+.newbox p{ font-size: 14px;}
+.more{background: #0af; color: #FFF; height: 20px; width: 120px;
+position: absolute; text-align: center; padding: 5px 0; margin: -19.5px 0 0 344.5px; float: right;}
+
+.newsletter{background: #ea1; height: 100px; width: 100%; margin: 20px 0;}
+.newsletter img{margin: 10px 0 10px 10px;}
+.textnewsletter{ margin: 25px 5px;}
+.textnewsletter p,.textnewsletter h3{color: #fff; width: 320px;}
+.textnewsletter p{ line-height: 10px; padding-bottom: 0px; font-size: 12px;}
+.textnewsletter h1{ font-size: 18px;}
+.newsletter form{ margin: 30px 0; height: 40px; width: 500px; float: left;}
+.nomenews, .emailnews{ width: 170px;}
+.nomenews, .emailnews, .buttonnews{ margin: 0 5px; border: none; height: 40px; padding: 0 10px; float: left;}
+.buttonnews{ background: #059; color: #FFF; float: right;}
+.boxduplo{width: 490px; }
+
+/*-----  End of CSS|CORPO-GERAL  ------*/
+
+/*=======================================
+=            CSS|FOOTERGERAL            =
+=======================================*/
+.pubfooter{ height: 100px; width: 728px; margin: 10px auto;}
+.footergeral{ background: #222; height: 100px; border-top: 25px solid #292929;}
+/*-----  End of CSS|FOOTERGERAL  ------*/

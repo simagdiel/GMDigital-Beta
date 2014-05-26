@@ -1,4 +1,3 @@
-GMDigital-Beta
-==============
+# GMDigital-Beta
 
 Novo GMDigital-Beta

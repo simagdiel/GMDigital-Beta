@@ -1,0 +1,2 @@
+Esse é um arquivo de log. você pode apagá-lo, usei-o apenas para organizar os nomes dados as pastas pelo commit. 
+
